@@ -1,11 +1,17 @@
-body {
-    background-color: #121420
-    font-family: "Monaspace", "Argon", NF;
-    padding: 20px;
-    font-size: 16px;
+.jetbrains-mono-<uniquifier > {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
-hl {
-    font-family: "JetBrains Mono", "Nerd Font", monospace;
-    color: #1B2432
+body {
+    background-color: #FFFFF;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 16px;
+    padding: 20px;
+}
+.hl {
+    font-family: "JetBrains Mono", monospace;
+    color: #1b2432;
     font-size: 72px;
 }
